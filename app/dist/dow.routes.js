@@ -39,7 +39,7 @@ exports.__esModule = true;
 exports.dowRouter = void 0;
 var express = require('express');
 var mongodb = require('mongodb');
-var database_1 = require("./database");
+var database_1 = require("../database");
 exports.dowRouter = express.Router();
 exports.dowRouter.use(express.json());
 exports.dowRouter.get("/", function (req, res) { return __awaiter(void 0, void 0, void 0, function () {

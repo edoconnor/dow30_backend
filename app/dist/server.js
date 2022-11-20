@@ -3,8 +3,8 @@ exports.__esModule = true;
 var dotenv = require("dotenv");
 var cors = require("cors");
 var express = require("express");
-var database_1 = require("./database");
-var dow_routes_1 = require("./dow.routes");
+var database_1 = require("../database");
+var dow_routes_1 = require("../dow.routes");
 dotenv.config();
 var ATLAS_URI = process.env.ATLAS_URI;
 if (!ATLAS_URI) {
